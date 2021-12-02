@@ -69,10 +69,11 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top:initial;
+    margin-bottom:initial;
   }
   .container-2 {
     justify-content: flex-start;
-    height: min-content;
     width: inherit;
     align-self: center;
     justify-content: center;
@@ -80,7 +81,7 @@ body {
   }
   .container-1 {
     justify-content: center;
-    height: min-content;
+    height:fit-content;
     width: inherit;
     z-index: 2;
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
@@ -94,5 +95,9 @@ body {
   }
   .title {
     font-size: -webkit-xxx-large;
+  }
+  .description{
+    margin-top:inherit;
+    margin-bottom:revert;
   }
 }
